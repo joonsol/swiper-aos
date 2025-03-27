@@ -1,0 +1,41 @@
+/* App.scss */
+.slider-container {
+    // width: 600px;
+    // margin: 0 auto;
+    .rel {
+      flex-direction: column;
+      gap: 30px;
+    }
+  .swiper {
+    width: 800px;
+    .slide-bg {
+      height: 300px;
+      
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      
+      &.slide1 {
+        background-image: url('./1.jpeg');
+      }
+      
+      &.slide2 {
+        background-image: url('./2.jpeg');
+      }
+      
+      &.slide3 {
+        background-image: url('./3.jpeg');
+      }
+      
+      .slide-content {
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 20px;
+        border-radius: 10px;
+      }
+    }
+    }
+  }
+  
