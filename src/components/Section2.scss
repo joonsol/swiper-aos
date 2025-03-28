@@ -1,17 +1,15 @@
-.s2{
-    .rel {
+.s2 {
+    .rel{
         justify-content: space-between;
-        gap: 50px;
-        max-width: 1600px;
-        margin: auto;
-        .tit-wrap{
-            max-width: 20rem;
+        .tit-wrap {
+            max-width: 500px;
+ 
         }
         .img-wrap {
-            border-radius: 20px;
-            width: 300px;
+            width: 500px;
             height: 400px;
             background: url(/public/1.jpeg) no-repeat center/cover;
+            border-radius: 10px;
         }
     }
 }

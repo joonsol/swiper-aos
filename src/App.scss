@@ -1,26 +1,25 @@
-/* styles.scss */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  ul {
+}
+ul {
     list-style-type: none;
-  }
+}
 section {
-    position: relative;
     height: 100vh;
-  }
-  
- section .rel {
     position: relative;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0 100px;
-  }
-section .rel h2{
-    font-size: 50px;
-    text-transform: uppercase;
-  }
+    .rel {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        padding: 0 100px;
+
+        h2 {
+            font-size: 60px;
+            text-transform: uppercase;
+        }
+    }
+}
