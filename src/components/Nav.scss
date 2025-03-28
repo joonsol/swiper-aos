@@ -7,12 +7,13 @@ nav {
     flex-direction: column;
     gap: 10px;
 
-    button{
+    button {
         width: 15px;
         height: 15px;
         background-color: #000;
         border-radius: 50%;
         opacity: .3;
+        cursor: pointer;
 
         &.active {
             opacity: 1;
